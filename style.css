@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.result {
+    text-align: center;
+    margin-bottom: 20px; /* Abstand unter dem Ergebnis */
+}
+
+.result p{
+    margin-bottom: -88px;
+    margin-top: 64px;
+    font-size: 60px;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cell img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.img-result{
+    width: 80px;
+}
+
+#playAgainBtn {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffd700; /* Gelb */
+    border: none;
+    color: #8b7500; /* Goldene Sattierung */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#playAgainBtn:hover {
+    background-color: #ffff00; /* Hervorhebung bei Hover */
+}

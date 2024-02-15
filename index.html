@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe (GPT)</title>
 </head>
 <body>
-    
+
+    <div class="result" id="result"></div>
+    <div class="container" id="tic-tac-toe">
+        <div class="row">
+            <div class="cell" onclick="handleClick(0)"><img id="cell-0" src="" alt=""></div>
+            <div class="cell" onclick="handleClick(1)"><img id="cell-1" src="" alt=""></div>
+            <div class="cell" onclick="handleClick(2)"><img id="cell-2" src="" alt=""></div>
+        </div>
+        <div class="row">
+            <div class="cell" onclick="handleClick(3)"><img id="cell-3" src="" alt=""></div>
+            <div class="cell" onclick="handleClick(4)"><img id="cell-4" src="" alt=""></div>
+            <div class="cell" onclick="handleClick(5)"><img id="cell-5" src="" alt=""></div>
+        </div>
+        <div class="row">
+            <div class="cell" onclick="handleClick(6)"><img id="cell-6" src="" alt=""></div>
+            <div class="cell" onclick="handleClick(7)"><img id="cell-7" src="" alt=""></div>
+            <div class="cell" onclick="handleClick(8)"><img id="cell-8" src="" alt=""></div>
+        </div>
+    </div>
+
+    <button id="playAgainBtn" onclick="restartGame()">Spielen</button>
+    <script src="script.js"></script>
 </body>
 </html>
